@@ -1,2 +1,7 @@
-# Robomaster Mission 1
-The submit for hust langya mission 1 by ZouDianYuan
+# Robomaster Mission 
+The submit for hust langya mission  by ZouDianYuan
+## FileFolder Name Rule  
+*ex.* MissionX.CY  
+**X** : The Xth mission    
+**C** : b means basic, p means pro  
+**Y** : The Yth sub-mission  
