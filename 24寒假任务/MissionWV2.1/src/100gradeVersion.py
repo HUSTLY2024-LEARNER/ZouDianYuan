@@ -299,7 +299,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 num_blocks = [2, 2, 2, 2]  # 可以更改这些值以增加更多的残差块
 
 if(train_mode=='pretrain'):
-    model = torch.jit.load(pretrain_name)
+    model = torch.jit.load(pretrain_name).to(device)
 elif(train_mode=='newtrain'):
     model = ResNet_CNN(ResidualBlock, num_blocks).to(device)
 
