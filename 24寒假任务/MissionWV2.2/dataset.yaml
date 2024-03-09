@@ -1,0 +1,7 @@
+train: D:\Desktop\py-program\RoboMaster_YOLO\data\images\train
+val: D:\Desktop\py-program\RoboMaster_YOLO\data\images\val
+test: D:\Desktop\py-program\RoboMaster_YOLO\data\images\test
+# number of classes
+nc: 1
+# class names
+names: ['0']
